@@ -123,7 +123,6 @@ menu responsive */
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
-  max-width: calc(100% - 190px);
   width: 100%;
   height: 480px;
 }
@@ -132,7 +131,6 @@ menu responsive */
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
-  max-width: calc(100% - 190px);
   width: 100%;
   height: 520px;
 }
@@ -141,7 +139,6 @@ menu responsive */
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
-  max-width: calc(100% - 190px);
   width: 100%;
   height: 480px;
 }
@@ -150,7 +147,6 @@ menu responsive */
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
-  max-width: calc(100% - 190px);
   width: 100%;
   height: 480px;
 }
@@ -160,7 +156,6 @@ menu responsive */
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
-  max-width: calc(100% - 190px);
   width: 100%;
   height: 480px;
 }
@@ -688,9 +683,7 @@ button:active {
   .bannerMarcas,
   .bannerResponsabilidad,
   .bannerLegal {
-    background-size: cover;
-    max-width: calc(100% - 60px);
-    height: 350px;
+    height: 400px;
   }
 }
 
@@ -703,8 +696,6 @@ button:active {
   .bannerMarcas,
   .bannerResponsabilidad,
   .bannerLegal {
-    background-size: cover;
-    max-width: calc(100% - 48px);
     height: 350px;
   }
 }
@@ -721,8 +712,6 @@ button:active {
   .bannerMarcas,
   .bannerResponsabilidad,
   .bannerLegal {
-    background-size: cover;
-    max-width: calc(100% - 48px);
     height: 350px;
   }
   .subtitulo {
@@ -744,8 +733,6 @@ button:active {
   .bannerContacto,
   .bannerResponsabilidad,
   .bannerLegal {
-    background-size: cover;
-    max-width: calc(100% - 36px);
     height: 300px;
   }
   .subtitulo {

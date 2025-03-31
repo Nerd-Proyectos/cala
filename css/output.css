@@ -806,10 +806,6 @@ video {
   z-index: 50;
 }
 
-.z-\[999\]{
-  z-index: 999;
-}
-
 .z-\[-1\]{
   z-index: -1;
 }
@@ -1192,14 +1188,6 @@ video {
   height: 100vh;
 }
 
-.h-\[222px\]{
-  height: 222px;
-}
-
-.h-\[100\%\]{
-  height: 100%;
-}
-
 .max-h-60{
   max-height: 15rem;
 }
@@ -1265,14 +1253,6 @@ video {
 .w-min{
   width: -moz-min-content;
   width: min-content;
-}
-
-.w-\[255px\]{
-  width: 255px;
-}
-
-.w-\[100\%\]{
-  width: 100%;
 }
 
 .min-w-\[100px\]{
@@ -1900,12 +1880,12 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-gradient-to-b{
-  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
-}
-
 .bg-\[radial-gradient\(circle\2c rgba\(249\2c 176\2c 65\2c 0\.8\)_0\%\2c rgba\(249\2c 176\2c 65\2c 0\)_70\%\)\]{
   background-image: radial-gradient(circle,rgba(249,176,65,0.8) 0%,rgba(249,176,65,0) 70%);
+}
+
+.bg-gradient-to-b{
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
 .from-transparent{
@@ -1926,6 +1906,21 @@ video {
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.object-none{
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+.object-left{
+  -o-object-position: left;
+     object-position: left;
+}
+
+.object-right{
+  -o-object-position: right;
+     object-position: right;
 }
 
 .object-top{
@@ -2553,7 +2548,6 @@ menu responsive */
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
-  max-width: calc(100% - 190px);
   width: 100%;
   height: 480px;
 }
@@ -2563,7 +2557,6 @@ menu responsive */
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
-  max-width: calc(100% - 190px);
   width: 100%;
   height: 520px;
 }
@@ -2573,7 +2566,6 @@ menu responsive */
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
-  max-width: calc(100% - 190px);
   width: 100%;
   height: 480px;
 }
@@ -2583,7 +2575,6 @@ menu responsive */
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
-  max-width: calc(100% - 190px);
   width: 100%;
   height: 480px;
 }
@@ -2593,7 +2584,6 @@ menu responsive */
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
-  max-width: calc(100% - 190px);
   width: 100%;
   height: 480px;
 }
@@ -3186,9 +3176,7 @@ button:active {
   .bannerMarcas,
   .bannerResponsabilidad,
   .bannerLegal {
-    background-size: cover;
-    max-width: calc(100% - 60px);
-    height: 350px;
+    height: 400px;
   }
 }
 
@@ -3202,8 +3190,6 @@ button:active {
   .bannerMarcas,
   .bannerResponsabilidad,
   .bannerLegal {
-    background-size: cover;
-    max-width: calc(100% - 48px);
     height: 350px;
   }
 }
@@ -3220,8 +3206,6 @@ button:active {
   .bannerMarcas,
   .bannerResponsabilidad,
   .bannerLegal {
-    background-size: cover;
-    max-width: calc(100% - 48px);
     height: 350px;
   }
 
@@ -3248,8 +3232,6 @@ button:active {
   .bannerContacto,
   .bannerResponsabilidad,
   .bannerLegal {
-    background-size: cover;
-    max-width: calc(100% - 36px);
     height: 300px;
   }
 
@@ -4355,5 +4337,10 @@ button:active {
 
   .\32xl\:gap-\[100px\]{
     gap: 100px;
+  }
+
+  .\32xl\:object-none{
+    -o-object-fit: none;
+       object-fit: none;
   }
 }
