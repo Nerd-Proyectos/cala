@@ -437,3 +437,33 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 );
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  function initializeCustomCursor() {
+    const customCursor = document.querySelector('.custom-cursor');
+    if (!customCursor) return;
+
+    const hoverItems = document.querySelectorAll('.custom-hover');
+
+    hoverItems.forEach(item => {
+      item.addEventListener('mouseenter', () => {
+        customCursor.classList.remove('hidden');
+      });
+      item.addEventListener('mouseleave', () => {
+        customCursor.classList.add('hidden');
+      });
+    });
+
+    document.addEventListener('mousemove', (e) => {
+      const cursorWidth = customCursor.offsetWidth;
+      const cursorHeight = customCursor.offsetHeight;
+      customCursor.style.left = `${e.clientX - cursorWidth / 2}px`;
+      customCursor.style.top = `${e.clientY - cursorHeight / 2}px`;
+    });
+  }
+
+  initializeCustomCursor();
+});

@@ -10,9 +10,27 @@
   font-family: "Poppins", sans-serif;
 }
 
+
+/*custom cursor*/
 .custom-hover {
-  cursor: url("../img/custom-hover.svg"), auto !important;
+  cursor: none;
 }
+
+.rotar {
+  animation: rotar 6s linear infinite;
+}
+@keyframes rotar {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 
 .fondoProductoNaPancha {
   background: linear-gradient(
