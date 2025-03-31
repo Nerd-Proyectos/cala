@@ -1045,6 +1045,10 @@ video {
   margin-top: 82px;
 }
 
+.-mt-\[45\%\]{
+  margin-top: -45%;
+}
+
 .line-clamp-2{
   overflow: hidden;
   display: -webkit-box;
@@ -3654,6 +3658,10 @@ button:active {
 
   .sm\:-mt-\[25\%\]{
     margin-top: -25%;
+  }
+
+  .sm\:-mt-\[35\%\]{
+    margin-top: -35%;
   }
 
   .sm\:h-\[450px\]{
