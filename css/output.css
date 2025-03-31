@@ -3655,6 +3655,10 @@ button:active {
     margin-top: -35%;
   }
 
+  .sm\:-mt-\[30\%\]{
+    margin-top: -30%;
+  }
+
   .sm\:h-\[450px\]{
     height: 450px;
   }
