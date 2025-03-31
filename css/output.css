@@ -1053,6 +1053,10 @@ video {
   margin-top: -40%;
 }
 
+.mb-16{
+  margin-bottom: 4rem;
+}
+
 .line-clamp-2{
   overflow: hidden;
   display: -webkit-box;
@@ -1430,6 +1434,10 @@ video {
 
 .max-w-full{
   max-width: 100%;
+}
+
+.max-w-\[450px\]{
+  max-width: 450px;
 }
 
 .flex-1{
@@ -1934,6 +1942,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#C0E0FF\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(192 224 255 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[radial-gradient\(circle\2c rgba\(249\2c 176\2c 65\2c 0\.8\)_0\%\2c rgba\(249\2c 176\2c 65\2c 0\)_70\%\)\]{
   background-image: radial-gradient(circle,rgba(249,176,65,0.8) 0%,rgba(249,176,65,0) 70%);
 }
@@ -2145,6 +2158,10 @@ video {
 
 .pt-\[80px\]{
   padding-top: 80px;
+}
+
+.pb-4{
+  padding-bottom: 1rem;
 }
 
 .text-left{
