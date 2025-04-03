@@ -1091,6 +1091,10 @@ video {
   aspect-ratio: 16 / 9;
 }
 
+.aspect-square{
+  aspect-ratio: 1 / 1;
+}
+
 .\!h-\[250px\]{
   height: 250px !important;
 }
@@ -1458,6 +1462,14 @@ video {
 
 .max-w-full{
   max-width: 100%;
+}
+
+.max-w-\[50px\]{
+  max-width: 50px;
+}
+
+.max-w-\[150px\]{
+  max-width: 150px;
 }
 
 .flex-1{
