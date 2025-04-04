@@ -841,6 +841,11 @@ video {
   margin-right: auto;
 }
 
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .my-8{
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -859,11 +864,6 @@ video {
 .my-auto{
   margin-top: auto;
   margin-bottom: auto;
-}
-
-.my-4{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 .\!mb-8{
@@ -2106,12 +2106,20 @@ video {
   padding-bottom: 4rem;
 }
 
+.pb-2{
+  padding-bottom: 0.5rem;
+}
+
 .pb-20{
   padding-bottom: 5rem;
 }
 
 .pb-4{
   padding-bottom: 1rem;
+}
+
+.pb-6{
+  padding-bottom: 1.5rem;
 }
 
 .pb-8{
@@ -2176,14 +2184,6 @@ video {
 
 .pt-\[80px\]{
   padding-top: 80px;
-}
-
-.pb-2{
-  padding-bottom: 0.5rem;
-}
-
-.pb-6{
-  padding-bottom: 1.5rem;
 }
 
 .text-left{
